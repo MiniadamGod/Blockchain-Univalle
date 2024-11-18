@@ -1,0 +1,98 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_nuevosaludo",
+						"type": "string"
+					}
+				],
+				"name": "guardarsaludo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_nuevosaludo2",
+						"type": "string"
+					}
+				],
+				"name": "guardarsaludo2",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "leerSaludo",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "saludo_e",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"hola_dinamico.sol": "hola_dinamico"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"hola_dinamico.sol": {
+			"keccak256": "0x2709ceb413994194c385dd1bb3687030534f76cd31b8def0fc8bf746b20cdc7e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c5220f98893c568fe7c97c7415765c17023c7a2f93f69c6b28898385b2f8bc2f",
+				"dweb:/ipfs/QmVTdWRfMQwVXePCNi36nDYc6xCkHcCc7TmdFr1zCyuKSn"
+			]
+		}
+	},
+	"version": 1
+}
